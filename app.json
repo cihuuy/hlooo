@@ -1,6 +1,6 @@
 {
   "name": "code-server-heroku",
-  "description": "A code-server environment designed to run in your Heroku",
+  "description": "A code-server environment designed to run in your Railway",
   "repository": "https://github.com/cdr/deploy-code-server",
   "logo": "https://avatars.githubusercontent.com/u/1375?s=200&v=4",
   "keywords": [
@@ -8,7 +8,7 @@
     "express",
     "code-server",
     "cloud-development",
-    "heroku-api"
+    "railway-api"
   ],
   "env": {
     "GIT_REPO": {
